@@ -16,12 +16,4 @@
 - 🗂️ Message logging, search, media handling
 - 🧩 Easy to extend for custom automation and workflows
 
-
 ---
-
-## 🚀 Quickstart
-
-### 1. Install
-
-```bash
-npm install whatsapp-web.js
