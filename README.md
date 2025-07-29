@@ -1,8 +1,6 @@
 # 📲 WhatsApp-MCP: Control WhatsApp using AI
 
-![WhatsApp MCP](./2aa5f936-ba2f-4907-af8f-b18a7c9a6a65.png)
 
----
 
 ## 🔍 Overview
 
@@ -18,16 +16,6 @@
 - 🗂️ Message logging, search, media handling
 - 🧩 Easy to extend for custom automation and workflows
 
----
-
-## ⚙️ Tech Stack
-
-| Component         | Technology        |
-|------------------|-------------------|
-| WhatsApp Bridge   | `whatsapp-web.js` |
-| Backend Logic     | Node.js (JavaScript) |
-| Session Handling  | `mcp.json` |
-| AI Agent Support  | MCP-compatible tools (Cursor, Claude, etc.) |
 
 ---
 
