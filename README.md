@@ -1,23 +1,39 @@
-<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/793b7c16-23b0-4353-9059-6bb37e6599fb" 
+# 📲 WhatsApp-MCP: Control WhatsApp using AI
 
-A Local Integration Framework to Bridge WhatsApp with AI Tools
+![WhatsApp MCP](./2aa5f936-ba2f-4907-af8f-b18a7c9a6a65.png)
+
+---
 
 ## 🔍 Overview
 
-
-**Chat-Bridge** allows users to connect their WhatsApp account to local automation or AI workflows using tools like `whatsapp-web.js` and `Cursor MCP`. It enables reading and sending WhatsApp messages through a programmatic interface, ideal for automation, monitoring, and intelligent agents.
-
-This project facilitates secure, private integration with WhatsApp without needing an official API or hosted infrastructure.
+**Chat-Bridge** is a secure, local-first solution to bridge your WhatsApp messages with AI tools using a combination of `whatsapp-web.js`, SQLite, and AI agent communication through MCP (Message Control Protocol). The system empowers users to automate, filter, and respond to WhatsApp messages through natural language prompts.
 
 ---
 
 ## 💡 Features
 
-- 🔐 **Local WhatsApp Session Management**
-- 📩 **Programmatic access to messages and contacts**
-- 🧠 **MCP Tool integration for AI agents like Cursor or Claude**
-- 📁 **Uses `mcp.json` to store authentication/session**
-- 🔄 **Supports chat listing, message parsing, and AI-driven actions**
+- 🔐 Local session management via `mcp.json`
+- 📬 Read/send messages through programmable tools
+- 🧠 Integration with AI agents like Cursor or Claude
+- 🗂️ Message logging, search, media handling
+- 🧩 Easy to extend for custom automation and workflows
 
 ---
 
+## ⚙️ Tech Stack
+
+| Component         | Technology        |
+|------------------|-------------------|
+| WhatsApp Bridge   | `whatsapp-web.js` |
+| Backend Logic     | Node.js (JavaScript) |
+| Session Handling  | `mcp.json` |
+| AI Agent Support  | MCP-compatible tools (Cursor, Claude, etc.) |
+
+---
+
+## 🚀 Quickstart
+
+### 1. Install
+
+```bash
+npm install whatsapp-web.js
