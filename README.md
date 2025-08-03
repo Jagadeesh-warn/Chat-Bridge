@@ -4,7 +4,7 @@
 
 ## 🔍 Overview
 
-**Chat-Bridge** is a secure, local-first solution to bridge your WhatsApp messages with AI tools using a combination of `whatsapp-web.js`, SQLite, and AI agent communication through MCP (Message Control Protocol). The system empowers users to automate, filter, and respond to WhatsApp messages through natural language prompts.
+**Chat-Bridge** is a secure, local-first solution to bridge your WhatsApp messages with AI tools using a combination of `whatsapp-web.js`, SQLite, and AI agent communication through MCP (Model Context Protocol). The system empowers users to automate, filter, and respond to WhatsApp messages through natural language prompts.
 
 ---
 
